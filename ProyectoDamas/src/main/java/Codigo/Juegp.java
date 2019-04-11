@@ -11,4 +11,8 @@ package Codigo;
  */
 public class Juegp {
     
+    public void patitos(){
+        String var = "holaaaaa/aa/";
+    }
+    
 }

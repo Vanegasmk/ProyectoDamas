@@ -12,7 +12,8 @@ public class JuegoDamasVisual extends javax.swing.JFrame {
      */
     public JuegoDamasVisual() {
         initComponents();
-        this.setLocationRelativeTo(null);
+        setSize(600, 800);
+        this.setLocationRelativeTo(rootPane);
     }
 
     /**
@@ -28,11 +29,10 @@ public class JuegoDamasVisual extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(107, 84, 47));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vistas/11139375f0b79e4c9572776a38c418cb.jpg"))); // NOI18N
-        jLabel1.setAlignmentX(0.5F);
-        getContentPane().add(jLabel1, java.awt.BorderLayout.CENTER);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -1,14 +1,36 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Codigo;
-
-/**
- *
- * @author Dell
- */
 public class Dama {
+    private boolean color;
+    
+    public Dama(boolean pColor){
+        this.color = pColor;
+    }
+    
+    public boolean getColor(){
+        return color;
+    }
+    
+    public String colorDama(){
+        String alerta;
+        if (color == true){
+            alerta = "O";
+        }else{
+            alerta = "X";
+        }
+        return alerta;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
